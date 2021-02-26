@@ -964,7 +964,7 @@ def createWindow():
                 btn7d=Button(Tops10,padx=60,pady=16,bd=8,fg="black",font=("arial",15,"bold"), text=" NEWS SEARCH  ",bg="powder blue", command=self.search3,anchor="w",width=10,height=0,compound="c")
                 btn7d.pack()
             def search(self):
-                webbrowser.open('http://google.com/?gws_rd=cr&ei=qr5cU8GJGMnStAao1YG4BA#q=' + str(self.Source.get()))
+                webbrowser.open('https://www.google.com/search?q=' + str(self.Source.get()))
             def search1(self):
                 webbrowser.open('https://www.google.com/search?tbm=isch&q=' + str(self.Source.get()))
             def search2(self):
